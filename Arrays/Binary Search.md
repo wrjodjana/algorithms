@@ -32,6 +32,9 @@ def binary_search(arr, target):
 - Use `mid ± 1` with `while l <= r`, where we compare `mid` with`target`
 - Use `l = mid` or `r = mid` with `while l < r`, where mid could be the answer
 
+**Useful:**
+https://leetcode.com/discuss/post/786126/python-powerful-ultimate-binary-search-t-rwv8/
+
 
 
 

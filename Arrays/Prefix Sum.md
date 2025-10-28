@@ -1,6 +1,6 @@
-1. Prefix sum is a new array that precomputes the sum of elements of all values previously
-2. `prefix[i] = arr[0] + arr[1] + ... + arr[i]`
-3. To find sum of subarray from index `l` to `r`: 
+- Prefix sum is a new array that precomputes the cumulative sum of all elements up to each index
+- `prefix[i] = arr[0] + arr[1] + ... + arr[i]`
+- To find sum of subarray from index `l` to `r`: 
 	- if `l == 0`: `prefix[r]`
 	- Otherwise: `prefix[r] - prefix[l-1]`
 
