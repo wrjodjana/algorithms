@@ -1,3 +1,4 @@
+**Definition**
 - A dp algorithm used to find maximum sum of contiguous subarray (for 1D arrays)
 - At any given point you have two choices for forming maximum sum subarray ending at i:
 	- Start a new subarray from current element `nums[i]`

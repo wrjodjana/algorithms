@@ -1,3 +1,4 @@
+**Definition**
 1. Define two ptrs, one at the left (`0`) and one at the right (`n-1`) of the array
 2. Depending on the question, move one or both ptrs inward based on some condition
 3. Continue until both ptrs meet or they cross

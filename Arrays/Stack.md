@@ -1,3 +1,4 @@
+**Definition**
 - Linear data structure that follows Last-in-First-out principle
 - New elements are always pushed to the top and removal also happens at the top
 

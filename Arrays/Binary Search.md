@@ -1,3 +1,4 @@
+**Definition**
 1. Ensure that the array is sorted
 2. Divide array into two halves and find the middle index `mid`
 3. Compare middle element with our target value:

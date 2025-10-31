@@ -1,3 +1,4 @@
+**Definition**
 - Prefix sum is a new array that precomputes the cumulative sum of all elements up to each index
 - `prefix[i] = arr[0] + arr[1] + ... + arr[i]`
 - To find sum of subarray from index `l` to `r`: 

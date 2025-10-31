@@ -1,3 +1,4 @@
+**Definition**
 1. Define two ptrs that both start at the same position, left and right ptrs
 2. Expand window by moving the right ptr (traversing array) and processing the new element
 3. When a condition isn't met, shrink window by moving left ptr until condition is met again
