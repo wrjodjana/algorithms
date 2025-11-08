@@ -21,5 +21,9 @@ class TreeNode:
 - Height of node: Distance from node to deepest leaf
 - Height of tree: Height of root = max depth of any leaf
 
-
+**Checking for leaves**
+```Python
+if root.left is None and root.right is None:
+	# add logic
+```
 

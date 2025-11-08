@@ -43,20 +43,21 @@ def dfs(root):
 ![[tree.png|275]]
 
 Preorder Traversal
-- Process node itself, then process the left, then process the right
-- `[1, 2, 4, 5, 3, 10]`
+- Process node itself, then process left, then process right e.g. `[1, 2, 4, 5, 3, 10]`
+- Use: Children needs information from parent or ancestors
+- Passes: parameters down (accumulated sum, max so far, current path)
 
 Inorder Traversal
-- Process left node, then process node and then process the right
-- `[4, 2, 5, 1, 10, 3]`
+- Process left, then process node and then process right e.g. `[4, 2, 5, 1, 10, 3]`
+- Use: when tackling problems for BST where sorting matters
 
 Postorder Traversal
-- Process the left, process the right then process the node
-- `[4, 5, 2, 10, 3, 1]`
+- Process left, process right then process the node e.g. `[4, 5, 2, 10, 3, 1]`
+- Use: Parent needs information from children to calculate something
+- Return: Info that parent needs (height, sum, count)
 
-**Patterns**
-- Return value (in the `dfs` function)
-- Path tracking with backtracking
-- Global variable to track value
+
+
+
 
 
